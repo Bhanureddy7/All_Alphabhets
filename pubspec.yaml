@@ -1,0 +1,360 @@
+name: Alphabets
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+ sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+ flutter:
+  sdk: flutter
+ intl: ^0.18.1
+ cupertino_icons: ^1.0.2
+ audioplayers: ^5.2.1
+ just_audio: ^0.9.36
+
+
+dev_dependencies:
+ flutter_test:
+  sdk: flutter
+ flutter_launcher_icons: ^0.13.1
+ flutter_lints: ^2.0.0
+flutter_launcher_icons:
+ android: "launcher_icon"
+ ios: true
+ image_path: "assets/icon/icon.png"
+
+flutter:
+ uses-material-design: true
+ assets:
+  - assets/bg.jpg
+  - assets/alphabhet_images/a.jpg
+  - assets/alphabhet_images/b.jpg
+  - assets/alphabhet_images/c.jpg
+  - assets/alphabhet_images/d.jpg
+  - assets/alphabhet_images/e.jpg
+  - assets/alphabhet_images/f.jpg
+  - assets/alphabhet_images/g.jpg
+  - assets/alphabhet_images/h.jpg
+  - assets/alphabhet_images/i.jpg
+  - assets/alphabhet_images/j.jpg
+  - assets/alphabhet_images/k.jpg
+  - assets/alphabhet_images/l.jpg
+  - assets/alphabhet_images/m.jpg
+  - assets/alphabhet_images/n.jpg
+  - assets/alphabhet_images/o.jpg
+  - assets/alphabhet_images/p.jpg
+  - assets/alphabhet_images/q.jpg
+  - assets/alphabhet_images/r.jpg
+  - assets/alphabhet_images/s.jpg
+  - assets/alphabhet_images/t.jpg
+  - assets/alphabhet_images/u.jpg
+  - assets/alphabhet_images/v.jpg
+  - assets/alphabhet_images/w.jpg
+  - assets/alphabhet_images/x.jpg
+  - assets/alphabhet_images/y.jpg
+  - assets/alphabhet_images/z.jpg
+  - assets/teluguimages/అ.jpg
+  - assets/teluguimages/ఆ.jpg
+  - assets/teluguimages/ఇ.jpeg
+  - assets/teluguimages/ఈ.jpeg
+  - assets/teluguimages/ఉ.jpeg
+  - assets/teluguimages/ఉ.jpeg
+  - assets/teluguimages/ఊ.jpg
+  - assets/teluguimages/ఋ.jpeg
+  - assets/teluguimages/ఎ.jpg
+  - assets/teluguimages/ఏ.jpeg
+  - assets/teluguimages/ఐ.jpeg
+  - assets/teluguimages/ఒ.jpg
+  - assets/teluguimages/ఓ.jpeg
+  - assets/teluguimages/ఔ.jpg
+  - assets/teluguimages/క.jpg
+  - assets/teluguimages/ఖ.jpeg
+  - assets/teluguimages/గ.jpeg
+  - assets/teluguimages/ఘ.jpg
+  #- assets/teluguimages/ఙ.jpg
+  - assets/teluguimages/చ.jpeg
+  - assets/teluguimages/ఛ.jpeg
+  - assets/teluguimages/జ.jpeg
+  - assets/teluguimages/ఝ.jpeg
+  #- assets/teluguimages/ఞ.jpg
+  - assets/teluguimages/ట.jpg
+  - assets/teluguimages/ఠ.jpg
+  - assets/teluguimages/డ.jpg
+  - assets/teluguimages/ఢ.jpeg
+  - assets/teluguimages/ణ.jpeg
+  - assets/teluguimages/త.jpg
+  - assets/teluguimages/థ.jpg
+  - assets/teluguimages/ద.jpg
+  - assets/teluguimages/ధ.jpeg
+  - assets/teluguimages/న.jpg
+  - assets/teluguimages/ప.jpg
+  - assets/teluguimages/ఫ.jpeg
+  - assets/teluguimages/బ.jpg
+  - assets/teluguimages/భ.jpeg
+  - assets/teluguimages/మ.jpg
+  - assets/teluguimages/య.jpeg
+  - assets/teluguimages/ర.jpg
+  - assets/teluguimages/ల.jpg
+  - assets/teluguimages/వ.jpeg
+  - assets/teluguimages/శ.jpg
+  - assets/teluguimages/ష.png
+  - assets/teluguimages/స.jpg
+  - assets/teluguimages/హ.jpeg
+  - assets/teluguimages/ళ.jpg
+  - assets/teluguimages/క్ష.jpg
+  - assets/teluguimages/ఱ.jpg
+  - assets/hindiimages/अ.jpeg
+  - assets/hindiimages/आ.jpg
+  - assets/hindiimages/इ.jpeg
+  - assets/hindiimages/ई.jpeg
+  - assets/hindiimages/उ.jpeg
+  - assets/hindiimages/ऊ.jpeg
+  - assets/hindiimages/ऋ.jpeg
+  - assets/hindiimages/ए.jpg
+  - assets/hindiimages/ऐ.jpeg
+  - assets/hindiimages/ओ.jpeg
+  - assets/hindiimages/औ.jpeg
+  - assets/hindiimages/अं.jpg
+  - assets/hindiimages/क.jpg
+  - assets/hindiimages/ख.jpg
+  - assets/hindiimages/ग.jpg
+  - assets/hindiimages/घ.jpeg
+  - assets/hindiimages/च.jpg
+  - assets/hindiimages/छ.jpeg
+  - assets/hindiimages/ज.jpeg
+  - assets/hindiimages/झ.jpg
+  - assets/hindiimages/ट.jpg
+  - assets/hindiimages/ठ.jpeg
+  - assets/hindiimages/ड.jpg
+  - assets/hindiimages/ढ.jpg
+  #- assets/hindiimages/ण.jpeg
+  - assets/hindiimages/त.jpg
+  - assets/hindiimages/थ.jpeg
+  - assets/hindiimages/द.jpg
+  - assets/hindiimages/ध.jpeg
+  - assets/hindiimages/न.jpg
+  - assets/hindiimages/प.jpg
+  - assets/hindiimages/फ.jpeg
+  - assets/hindiimages/ब.jpeg
+  - assets/hindiimages/भ.jpg
+  - assets/hindiimages/म.jpeg
+  - assets/hindiimages/य.jpeg
+  - assets/hindiimages/र.jpg
+  - assets/hindiimages/ल.jpeg
+  - assets/hindiimages/व.jpeg
+  - assets/hindiimages/श.jpg
+  - assets/hindiimages/ष.jpg
+  - assets/hindiimages/स.jpg
+  - assets/hindiimages/ह.jpg
+  - assets/hindiimages/क्ष.jpg
+  - assets/hindiimages/त्र.jpg
+  - assets/hindiimages/ज्ञ.jpeg
+  - assets/audio/a.mp3
+  - assets/audio/b.mp3
+  - assets/audio/c.mp3
+  - assets/audio/d.mp3
+  - assets/audio/e.mp3
+  - assets/audio/f.mp3
+  - assets/audio/g.mp3
+  - assets/audio/h.mp3
+  - assets/audio/i.mp3
+  - assets/audio/j.mp3
+  - assets/audio/k.mp3
+  - assets/audio/l.mp3
+  - assets/audio/m.mp3
+  - assets/audio/n.mp3
+  - assets/audio/o.mp3
+  - assets/audio/p.mp3
+  - assets/audio/q.mp3
+  - assets/audio/r.mp3
+  - assets/audio/ss.mp3
+  - assets/audio/t.mp3
+  - assets/audio/u.mp3
+  - assets/audio/v.mp3
+  - assets/audio/w.mp3
+  - assets/audio/x.mp3
+  - assets/audio/y.mp3
+  - assets/audio/z.mp3
+  - assets/splash_image.png
+  - assets/audio/number_audio/1.wav
+  - assets/audio/number_audio/2.wav
+  - assets/audio/number_audio/3.wav
+  - assets/audio/number_audio/4.wav
+  - assets/audio/number_audio/5.wav
+  - assets/audio/number_audio/6.wav
+  - assets/audio/number_audio/7.wav
+  - assets/audio/number_audio/8.wav
+  - assets/audio/number_audio/9.wav
+  - assets/audio/number_audio/10.wav
+  - assets/audio/number_audio/11.wav
+  - assets/audio/number_audio/12.wav
+  - assets/audio/number_audio/13.wav
+  - assets/audio/number_audio/14.wav
+  - assets/audio/number_audio/15.wav
+  - assets/audio/number_audio/16.wav
+  - assets/audio/number_audio/17.wav
+  - assets/audio/number_audio/18.wav
+  - assets/audio/number_audio/19.wav
+  - assets/audio/number_audio/20.wav
+  - assets/audio/number_audio/21.wav
+  - assets/audio/number_audio/22.wav
+  - assets/audio/number_audio/23.wav
+  - assets/audio/number_audio/24.wav
+  - assets/audio/number_audio/25.wav
+  - assets/audio/number_audio/26.wav
+  - assets/audio/number_audio/27.wav
+  - assets/audio/number_audio/28.wav
+  - assets/audio/number_audio/29.wav
+  - assets/audio/number_audio/30.wav
+  - assets/audio/number_audio/31.wav
+  - assets/audio/number_audio/32.wav
+  - assets/audio/number_audio/33.wav
+  - assets/audio/number_audio/34.wav
+  - assets/audio/number_audio/35.wav
+  - assets/audio/number_audio/36.wav
+  - assets/audio/number_audio/37.wav
+  - assets/audio/number_audio/38.wav
+  - assets/audio/number_audio/39.wav
+  - assets/audio/number_audio/40.wav
+  - assets/audio/number_audio/41.wav
+  - assets/audio/number_audio/42.wav
+  - assets/audio/number_audio/43.wav
+  - assets/audio/number_audio/44.wav
+  - assets/audio/number_audio/45.wav
+  - assets/audio/number_audio/46.wav
+  - assets/audio/number_audio/47.wav
+  - assets/audio/number_audio/48.wav
+  - assets/audio/number_audio/49.wav
+  - assets/audio/number_audio/50.wav
+  - assets/audio/number_audio/51.wav
+  - assets/audio/number_audio/52.wav
+  - assets/audio/number_audio/53.wav
+  - assets/audio/number_audio/54.wav
+  - assets/audio/number_audio/55.wav
+  - assets/audio/number_audio/56.wav
+  - assets/audio/number_audio/57.wav
+  - assets/audio/number_audio/58.wav
+  - assets/audio/number_audio/59.wav
+  - assets/audio/number_audio/60.wav
+  - assets/audio/number_audio/61.wav
+  - assets/audio/number_audio/62.wav
+  - assets/audio/number_audio/63.wav
+  - assets/audio/number_audio/64.wav
+  - assets/audio/number_audio/65.wav
+  - assets/audio/number_audio/66.wav
+  - assets/audio/number_audio/67.wav
+  - assets/audio/number_audio/68.wav
+  - assets/audio/number_audio/69.wav
+  - assets/audio/number_audio/70.wav
+  - assets/audio/number_audio/71.wav
+  - assets/audio/number_audio/72.wav
+  - assets/audio/number_audio/73.wav
+  - assets/audio/number_audio/74.wav
+  - assets/audio/number_audio/75.wav
+  - assets/audio/number_audio/76.wav
+  - assets/audio/number_audio/77.wav
+  - assets/audio/number_audio/78.wav
+  - assets/audio/number_audio/79.wav
+  - assets/audio/number_audio/80.wav
+  - assets/audio/number_audio/81.wav
+  - assets/audio/number_audio/82.wav
+  - assets/audio/number_audio/83.wav
+  - assets/audio/number_audio/84.wav
+  - assets/audio/number_audio/85.wav
+  - assets/audio/number_audio/86.wav
+  - assets/audio/number_audio/87.wav
+  - assets/audio/number_audio/88.wav
+  - assets/audio/number_audio/89.wav
+  - assets/audio/number_audio/90.wav
+  - assets/audio/number_audio/91.wav
+  - assets/audio/number_audio/92.wav
+  - assets/audio/number_audio/93.wav
+  - assets/audio/number_audio/94.wav
+  - assets/audio/number_audio/95.wav
+  - assets/audio/number_audio/96.wav
+  - assets/audio/number_audio/97.wav
+  - assets/audio/number_audio/98.wav
+  - assets/audio/number_audio/99.wav
+  - assets/audio/number_audio/100.wav
+  - assets/audio/telugu_audio/అ.wav
+  - assets/audio/telugu_audio/ఆ.wav
+  - assets/audio/telugu_audio/ఇ.wav
+  - assets/audio/telugu_audio/ఈ.wav
+  - assets/audio/telugu_audio/ఉ.wav
+  - assets/audio/telugu_audio/ఊ.wav
+  - assets/audio/telugu_audio/ఋ.wav
+  - assets/audio/telugu_audio/ఎ.wav
+  - assets/audio/telugu_audio/ఏ.wav
+  - assets/audio/telugu_audio/ఐ.wav
+  - assets/audio/telugu_audio/ఒ.wav
+  - assets/audio/telugu_audio/ఓ.wav
+  - assets/audio/telugu_audio/ఔ.wav
+  - assets/audio/telugu_audio/క.wav
+  - assets/audio/telugu_audio/ఖ.wav
+  - assets/audio/telugu_audio/గ.wav
+  - assets/audio/telugu_audio/ఘ.wav
+  - assets/audio/telugu_audio/చ.wav
+  - assets/audio/telugu_audio/ఛ.wav
+  - assets/audio/telugu_audio/జ.wav
+  - assets/audio/telugu_audio/ఝ.wav
+  - assets/audio/telugu_audio/ట.wav
+  - assets/audio/telugu_audio/ఠ.wav
+  - assets/audio/telugu_audio/డ.wav
+  - assets/audio/telugu_audio/ఢ.wav
+  - assets/audio/telugu_audio/ణ.wav
+  - assets/audio/telugu_audio/త.wav
+  - assets/audio/telugu_audio/థ.wav
+  - assets/audio/telugu_audio/ద.wav
+  - assets/audio/telugu_audio/ధ.wav
+  - assets/audio/telugu_audio/న.wav
+  - assets/audio/telugu_audio/ప.wav
+  - assets/audio/telugu_audio/ఫ.wav
+  - assets/audio/telugu_audio/బ.wav
+  - assets/audio/telugu_audio/భ.wav
+  - assets/audio/telugu_audio/మ.wav
+  - assets/audio/telugu_audio/య.wav
+  - assets/audio/telugu_audio/ర.wav
+  - assets/audio/telugu_audio/ల.wav
+  - assets/audio/telugu_audio/వ.wav
+  - assets/audio/telugu_audio/శ.wav
+  - assets/audio/telugu_audio/షb.wav
+  - assets/audio/telugu_audio/సa.wav
+  - assets/audio/telugu_audio/హ.wav
+  - assets/audio/telugu_audio/ళ.wav
+  - assets/audio/telugu_audio/క్ష.wav
+  - assets/audio/telugu_audio/ఱ.wav
+  - assets/audio/telugu_audio/thra.mpeg
+  - assets/audio/telugu_audio/jnaa.mpeg
+  - assets/audio/telugu_audio/am.mpeg
+
+
+
+  #- assets/audio/hindi_audio/ఱ.wav
+ # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+ fonts:
+      - family: NotoSansTelugu
+        fonts:
+          - asset: assets/fonts/NotoSansTelugu-Regular.ttf
+
+  #   - family: Trajan Pro
+  #     fonts
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
